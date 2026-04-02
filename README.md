@@ -1,3 +1,17 @@
-# Swiggy-data-by-SQL
-📌 Project Description
-This project focuses on transforming a large, messy dataset of food deliveries into a clean, structured system for business insights. Using PostgreSQL, I applied data cleaning (CASE statements, Window Functions), built a Star Schema with Fact and Dimension tables, and performed analysis with Joins, Aggregations, and CTEs. The goal was to help businesses like Swiggy identify top locations, busy hours, popular dishes, and low‑performing items. The analysis improves marketing, operations, and customer satisfaction by providing clear KPIs. Recommendations include focusing on high‑growth areas, optimizing price ranges, improving food quality, and promoting top dishes for better sales.
+# 📊 Swiggy Data Analysis using SQL
+
+## 📌 Project Description  
+This project focuses on transforming a large, messy dataset of food deliveries into a clean, structured system for business insights.  
+
+Using **PostgreSQL**, I applied:  
+- **Data Cleaning** → CASE statements for null checks and Window Functions (ROW_NUMBER) to remove duplicates.  
+- **Data Modeling** → Designed a Star Schema with 5 Dimension tables and 1 Fact table.  
+- **Analysis** → Joins, Aggregations (SUM, AVG, COUNT), and CTEs to calculate KPIs and business trends.  
+
+The goal was to help businesses like **Swiggy** identify:  
+- Top locations generating revenue  
+- Busy hours and peak demand times  
+- Popular dishes and customer preferences  
+- Low-performing restaurants or items  
+
+This analysis improves **Marketing, Operations
